@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mαντεψε έναν αριθμό</title>
+    <link rel="stylesheet" href="final-test-style.css">
+    <script src="final-test-script.js" async></script>
+</head>
+<body>
+    <header>Μάντεψε έναν αριθμό</header>
+    <section id="instructions">
+        Έχουμε διαλέξει ένα τυχαίο αριθμό μεταξύ 1 και 100. 
+        Προσπάθησε να τον μαντέψεις σε 10 το πολύ προσπάθειες.
+        Κάθε φορά θα σού λέμε αν ο αριθμός που μάντεψες είναι μεγαλύτερος
+        ή μικρότερος από τον σωστό αριθμό.
+    </section>
+    <section id="guess">
+        <label for="new-guess">Μάντεψε: </label>
+        <input type="text" name="new-guess" id="new-guess" maxlength="5" >
+        <button id="check"> Έλεγχος </button>
+
+    </section>
+    <section>
+        <div id="message">  </div>
+        <div id="low-high"></div>
+        <button id= "restart"> Παίξε ξανά </button>
+    </section>    
+</body>
+</html>

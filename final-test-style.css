@@ -1,0 +1,92 @@
+:root {
+    --btn-color: teal;   /* χρώμα πλήκτρων */
+    --btn-text: whitesmoke;   /* χρώμα κειμένου πλήκτρων */
+    --msg-win-color: rgb(0, 128, 32);  /* χρώμα μηνύματος επιτυχίας */
+    --msg-wrong-color: crimson;  /* χρώμα μηνύματος αποτυχίας */
+    --msg-text:floralwhite;  /* χρώμα κειμένου μηνύματος */
+	--low-high-color: gray;  /* χρώμα ιστορικού προσπαθειών */
+}
+
+
+body{
+    color : (var(--btn-text))
+
+}
+#new-guess{
+    background-color: var(--btn-text);
+    height: 23px;
+
+}
+
+#check{
+    background-color: var(--btn-color);
+    color: var(--btn-text);
+    font-size: 20px;
+    border-radius: 5px;
+    
+    
+    
+
+
+}
+
+#restart{
+    
+        background-color: var(--btn-color);
+        color: var(--btn-text);
+        margin: 10px;
+        font-size: 25px;
+        border-radius: 7px;
+        margin-bottom: 15px;
+
+        
+    
+    }
+
+    label {
+        
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        
+
+
+    }
+    #message{
+        text-align: center;
+        font-size: 25px;
+        
+        
+        
+    }
+
+    #instructions{
+        font-size: 25px;
+        margin: 10px;
+    }
+    header{
+        font-size: 25px;
+    }
+
+    #low-high{
+        font-size: 22px;
+        margin: 10px;
+    }
+
+    #new-guess:focus{
+        box-shadow: 1px 1px 2px 1px var(--btn-color);
+        
+    }
+    #check:focus{
+        box-shadow: 1px 1px 2px 1px var(--btn-color);
+        
+    }
+
+
+
+
+
+
+
+
+
